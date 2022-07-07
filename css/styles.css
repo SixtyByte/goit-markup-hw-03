@@ -1,0 +1,279 @@
+:root {
+  /* font*/
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  /* text color*/
+  --main-txt-color: #212121;
+  /* bg color*/
+  --blue-bg-color: #2f303a;
+  --grey-bg-color: #f5f4fa;
+
+  /* others*/
+  --active-button-color: #2196f3;
+}
+
+.button2,
+.button1,
+.nav1 {
+  cursor: pointer;
+}
+
+/*reset styles*/
+.link {
+  text-decoration: none;
+}
+
+.list-item {
+  list-style: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-color);
+}
+
+/**Header*/
+.web {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+
+.studio {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.nav1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact:hover {
+  color: var(--active-button-color);
+}
+
+.contact:focus {
+  color: var(--active-button-color);
+}
+
+.nav1:hover {
+  color: var(--active-button-color);
+}
+
+.nav1:focus {
+  color: var(--active-button-color);
+}
+
+.nav-current {
+  color: var(--active-button-color);
+}
+.nav-current2 {
+  color: var(--active-button-color);
+}
+/**MAIN 1 */
+
+.main-window {
+  background: #2f303a;
+}
+
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60/44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button1 {
+  background: #2196f3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button1:hover {
+  background: #188ce8;
+}
+
+.button1:focus {
+  color: white;
+}
+
+/**Section props*/
+.secondH-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.qualities-item {
+  font-size: 14px;
+  line-height: calc(24/14);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.headline-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Team*/
+.workername {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/**FOOTER**/
+footer {
+  background-color: #2f303a;
+}
+
+/**Logo**/
+.web2 {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: #2196f3;
+}
+
+.studio2 {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.section-grey {
+  background-color: #f5f4fa;
+}
+
+/**Contact**/
+.geo {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact2 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24/14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact2:hover {
+  color: var(--active-button-color);
+}
+
+.contact2:focus {
+  color: var(--active-button-color);
+}
+
+/*Portfolio*/
+.button2 {
+  font-style: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button2:hover {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.button2:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.button-current {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.position-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36/18);
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.position-type {
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(30/16);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*End
