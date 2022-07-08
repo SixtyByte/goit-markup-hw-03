@@ -64,9 +64,6 @@ body {
 
 .navigation{display: flex; gap:50px}
 
-
-
-
 .nav1 {
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +72,6 @@ body {
 
   color: #212121;
 }
-nav1:last-child{margin-right: 0;}
 
 a {
   text-decoration: none;
