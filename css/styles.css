@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6,p,span { margin: 0;}
   margin: 0;
 }
 /*base styles/*/
+img{display: block;}
 .container{ width:1200px;
 margin-left: auto;
 margin-right: auto;
@@ -198,6 +199,7 @@ padding-top: 200px;}
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 10px;
 }
 
 .position {
@@ -211,7 +213,10 @@ padding-top: 200px;}
 /**FOOTER**/
 footer {
   background-color: #2f303a;
+  min-height: 252px;
 }
+.foot-list{padding: 0;}
+.container-foot{padding-top: 60px;}
 
 /**Logo**/
 .web2 {
@@ -237,6 +242,7 @@ footer {
   background-color: #f5f4fa; 
 }
 .team-photo-container{display: flex; gap: 30px; margin: 0; padding: 0;}
+.team-wrapper{padding-top: 30px; padding-bottom: 30px; background-color: white;}
 
 /**Contact**/
 .geo {
@@ -245,6 +251,7 @@ footer {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: 20px;
 }
 .contact2 {
   font-style: normal;
@@ -252,6 +259,7 @@ footer {
   line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .contact2:hover {
