@@ -62,14 +62,15 @@ body {
   margin-right: 93px;
 }
 
-.navigation{display: flex; gap:50px;padding: 0;}
+.navigation{display: flex; gap:50px; padding: 0; margin: 0; }
 .nav-start{margin: 0;}
 .nav1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #212121;
 }
 
@@ -112,9 +113,13 @@ margin-right: 50px;}
   color: var(--active-button-color);
 }
 /**MAIN 1 */
+.tittle-container{ text-align: center; min-height: 600px;
+padding-top: 200px;}
 
 .main-window {
   background: #2f303a;
+ 
+
 }
 
 .main-title {
@@ -125,8 +130,10 @@ margin-right: 50px;}
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
+  
+ 
 
+}
 .button1 {
   background: #2196f3;
   font-style: normal;
@@ -137,6 +144,11 @@ margin-right: 50px;}
   border-radius: 4px;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
 }
 
 .button1:hover {
@@ -148,6 +160,8 @@ margin-right: 50px;}
 }
 
 /**Section props*/
+.props-container{display: flex; padding-top: 94px; margin-top:0 ;}  
+.qualities-list{display: flex; gap: 30px; margin: 0;padding: 0;} 
 .secondH-item {
   font-weight: 700;
   font-size: 14px;
@@ -155,6 +169,7 @@ margin-right: 50px;}
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .qualities-item {
@@ -162,6 +177,7 @@ margin-right: 50px;}
   line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: #757575;
+  max-width: 270px;
 }
 .headline-section {
   font-weight: 700;
@@ -169,9 +185,12 @@ margin-right: 50px;}
   line-height: calc(42/36);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
-
+.images-container{display: flex; gap: 30px; margin:0; padding: 0;}
+.what-we-do-container{padding-top:  94px;}
 /*Team*/
+
 .workername {
   font-weight: 500;
   font-size: 16px;
@@ -214,9 +233,10 @@ footer {
   color: white;
 }
 
-.section-grey {
-  background-color: #f5f4fa;
+.section-grey {margin-top: 94px; padding: 94px;
+  background-color: #f5f4fa; 
 }
+.team-photo-container{display: flex; gap: 30px; margin: 0; padding: 0;}
 
 /**Contact**/
 .geo {
