@@ -20,7 +20,7 @@
 }
 
 /*reset styles*/
-h1,h2,h3,h4,h5,h6,p{ margin: 0;}
+h1,h2,h3,h4,h5,h6,p,span { margin: 0;}
 .link {
   text-decoration: none;
 }
@@ -62,8 +62,8 @@ body {
   margin-right: 93px;
 }
 
-.navigation{display: flex; gap:50px}
-
+.navigation{display: flex; gap:50px;padding: 0;}
+.nav-start{margin: 0;}
 .nav1 {
   font-weight: 500;
   font-size: 14px;
