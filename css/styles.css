@@ -29,6 +29,7 @@ h6,
 p,
 span {
   margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -42,6 +43,19 @@ span {
 }
 
 /*base styles/*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 img {
   display: block;
 }
@@ -337,6 +351,11 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  border-color: gray;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /**Contact**/
