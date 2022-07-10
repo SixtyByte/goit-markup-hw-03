@@ -258,6 +258,7 @@ a {
 
 .what-we-do-container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*Team*/
@@ -320,7 +321,7 @@ footer {
 }
 
 .section-grey {
-  margin-top: 94px;
+  
   padding: 94px;
   background-color: #f5f4fa;
 }
